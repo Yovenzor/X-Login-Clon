@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+      color: white;
+      background-color: #242c35;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+}
+
+.box {
+      margin-top: 2rem;
+      border-radius: .94rem;
+      width: 34rem;
+      height: 35rem;
+      background-color: black;
+      padding: 1em;
+}
+
+nav {
+      display: flex;
+      align-items: center;
+}
+
+nav .brand-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.brand-logo img {
+      margin-left: 230px;
+      width: 30px;
+}
+
+.close i:hover {
+      background-color: rgb(53, 53, 53);
+      border-radius: 50%;
+}
+
+i {
+      font-size: 20px;
+      color: white;
+}
+
+.content {
+      text-align: center;
+}
+
+h1 {
+      text-align: left;
+      margin-left: 130px;
+      font-weight: 500;
+}
+
+.button {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+}
+
+.button button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      font-size: 13px;
+      font-weight: 900;
+      border-radius: 25px;
+      border: 1px solid gray;
+      cursor: pointer;
+}
+
+button,p {
+      margin-left: 20px;
+}
+
+hr {
+      border-color: gray;
+      width: 100px;
+}
+
+input {
+      color: white;
+      margin-top: 20px;
+      font-family: 'Poppins', sans-serif;
+      padding: 1rem;
+      background-color: transparent;
+      border: 2px solid gray;
+      border-radius: 5px;
+      flex-grow: 1;
+      width: 300px;
+      margin-left: 20px;
+      box-sizing: border-box;
+}
+
+input:focus::placeholder {
+      color: #1b8ad7;
+      transform: translateY(-13px);
+      font-size: 12px;
+      transition: color 0.25s, transform 0.3s;
+}
+
+input::placeholder {
+      color: #333;
+      transition: color 0.3s, transform 0.3s;
+}
+
+.or {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      margin-left: 130px;
+}
+
+.or div {
+      display: inline-block;
+      width: 125px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid gray;
+}
+
+a {
+      color: #1b8ad7;
+      text-decoration: none;
+}
+
+.forgot-button, .not-account {
+      margin: 20px;
+}
+
+.forgot-button button {
+      cursor: pointer;
+      width: 300px;
+      font-size: 13px;
+      font-weight: 900;
+      border-radius: 25px;
+      background-color: transparent;
+      color: white;
+      border: 1px solid gray;
+}
+
+.forgot-button button:hover {
+      background-color: #181818;
+      transition: all .2s ease;
+}
+
+.not-account a,p {
+      margin-left: 10px;
+}
+
+.not-account a:hover {
+      text-decoration: underline;
+}
+
+.not-account {
+      margin-left: 125px;
+      display: flex;
+      align-items: center;
+}
+
+.not-account p {
+      color: gray;
+}
